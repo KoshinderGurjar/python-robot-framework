@@ -3,7 +3,7 @@
 ![LambdaTest Logo](https://www.lambdatest.com/static/images/logo.svg)
 
 
-![altext](https://github.com/Apoorvlt/test/blob/master/rfi.PNG)
+![altext](https://github.com/LambdaTest/Robot-Selenium-Sample/blob/master/tutorial-images/logo.PNG)
 
 Robot Framework is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA).
 ## Prerequisites for Robot Selenium tutorial 
@@ -115,7 +115,7 @@ You would need to execute the below command in your terminal/cmd.
 make test_Windows_10_chrome_68
 ```
 
-![rfst](https://github.com/Apoorvlt/test/blob/master/rfst.PNG)
+![rfst](https://github.com/LambdaTest/Robot-Selenium-Sample/blob/master/tutorial-images/rfst.PNG)
 
 ## Parallel testing with Robot
 
@@ -145,12 +145,12 @@ To perform parallel testing on LambdaTest Selenium grid use the below command:
 make run_all_in_parallel
 ```
 
-![rfpt](https://github.com/Apoorvlt/test/blob/master/rfpt.PNG)
+![rfpt](https://github.com/LambdaTest/Robot-Selenium-Sample/blob/master/tutorial-images/rfpt.PNG)
 
 
 Below we see a screenshot that depicts our Robot code is running over different browsers i.e Chrome, Firefox and Safari on the LambdaTest Selenium Grid Platform. The results of the test script execution along with the logs can be accessed from the LambdaTest Automation dashboard.
 
-![rfsample](https://github.com/Apoorvlt/test/blob/master/rfsample.PNG)
+![rfsample](https://github.com/LambdaTest/Robot-Selenium-Sample/blob/master/tutorial-images/rfsample.PNG)
 
 
 ##  Testing Locally Hosted or Privately Hosted Projects
