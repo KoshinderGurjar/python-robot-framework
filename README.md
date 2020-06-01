@@ -166,7 +166,7 @@ To help you perform cross browser testing of your locally stored web pages, Lamb
 After setting tunnel you can also see the active tunnel in our LambdaTest dashboard:
 
 
-![tn](https://github.com/Apoorvlt/test/blob/master/tn.PNG)
+![tunnel active](https://github.com/LambdaTest/Robot-Selenium-Sample/blob/master/tutorial-images/tn.PNG)
 
 
 ### Important Note:
