@@ -15,7 +15,7 @@ Library  LambdaTestStatus.py
 
 ${BROWSER}          ${ROBOT_BROWSER}
 ${CAPABILITIES}     ${EMPTY.join(${_tmp})}
-${KEY}              YOUR USERNAME:YOUR ACCESS KEY
+${KEY}              srivishnua:lRPrFiIHat1GfMOOMISoBEcyPoa9XsABtLjAGw4flFgW2PjG1P
 ${REMOTE_URL}       http://${KEY}@hub.lambdatest.com/wd/hub
 ${TIMEOUT}          3000
 
