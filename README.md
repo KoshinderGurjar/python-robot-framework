@@ -12,6 +12,13 @@ You can find your username and access key here (https://www.lambdatest.com/capab
 
 ![Username Access](tutorial-images/capability.png)
 
+
+You can now replace the username and access key here in the `Common.robot` file: 
+
+```
+${KEY}              YOUR_USERNAME:YOUR_ACCESS_KEY
+```
+
 ## Getting Started With Robot & LambdaTest
 
 Let’ start with a simple Selenium Remote Webdriver test first. The Robot script below tests a simple to-do application with basic functionalities like mark items as done, add items in list, calculate total pending items etc.
