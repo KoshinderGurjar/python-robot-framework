@@ -14,9 +14,8 @@ Library  LambdaTestStatus.py
     ...  name: RobotFramework Lambda Test
 
 ${BROWSER}          ${ROBOT_BROWSER}
-${CAPABILITIES}     ${EMPTY.join(${_tmp})}
-${KEY}              YOUR_USERNAME:YOUR_ACCESS_KEY #Replace your username and access key 
-${REMOTE_URL}       http://${KEY}@hub.lambdatest.com/wd/hub
+${CAPABILITIES}     ${EMPTY.join(${_tmp})} 
+${REMOTE_URL}       http://%{LT_USERNAME}:%{LT_ACCESS_KEY}@hub.lambdatest.com/wd/hub #Replace your username and access key 
 ${TIMEOUT}          3000
 
 *** Keywords ***

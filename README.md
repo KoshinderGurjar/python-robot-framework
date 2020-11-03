@@ -16,7 +16,7 @@ You can find your username and access key here (https://www.lambdatest.com/capab
 You can now replace the username and access key here in the `Resources/Common.robot` file: 
 
 ```
-${KEY}              YOUR_USERNAME:YOUR_ACCESS_KEY
+http://%{LT_USERNAME}:%{LT_ACCESS_KEY}@hub.lambdatest.com/wd/hub
 ```
 
 ## Getting Started With Robot & LambdaTest
@@ -76,8 +76,7 @@ Library  LambdaTestStatus.py
 
 ${BROWSER}          ${ROBOT_BROWSER}
 ${CAPABILITIES}     ${EMPTY.join(${_tmp})}
-${KEY}              YOUR USERNAME:YOUR ACCESS KEY  //Please specify your lambdatest username and access key here
-${REMOTE_URL}       http://${KEY}@hub.lambdatest.com/wd/hub
+${REMOTE_URL}       http://%{LT_USERNAME}:%{LT_ACCESS_KEY}@hub.lambdatest.com/wd/hub //Please specify your lambdatest username and access key here
 ${TIMEOUT}          3000
 
 *** Keywords ***
