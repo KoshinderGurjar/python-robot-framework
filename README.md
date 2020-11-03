@@ -13,7 +13,7 @@ You can find your username and access key here (https://www.lambdatest.com/capab
 ![Username Access](tutorial-images/capability.png)
 
 
-You can now replace the username and access key here in the `Common.robot` file: 
+You can now replace the username and access key here in the `Resources/Common.robot` file: 
 
 ```
 ${KEY}              YOUR_USERNAME:YOUR_ACCESS_KEY
